@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "next-env.d.js",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/(site)/page.jsx",
+    "tailwind.config.js",
+    "src/components/SidebarItem.jsx",
+    "src/components/Sidebar.jsx",
+    "src/components/ListItem.jsx",
+    "src/components/Library.jsx",
+    "src/components/Header.jsx",
+    "src/components/Button.jsx",
+    "src/components/Box.jsx",
+    "app/layout.jsx",
+    "src/_app.jsx
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
